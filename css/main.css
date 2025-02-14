@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.mslide{
+    height:65vh; /* vertical height */
+    overflow:hidden;
+    position:relative;
+    width: 330px;
+    height: 330px;
+}
+
+.mslide img{
+    /*width:100%; /* 자동크기조정 */
+    object-fit: contain;
+    width: 305px;
+}
+
+.mslide > h2{display:none;}
+
+.mslide .swiper-pagination{
+    position:absolute;
+    bottom:10px !important;
+}
+
+.mslide .swiper-pagination-bullet {
+    transition: 0.5s;
+}
+
+.mslide .swiper-pagination-bullet-active {
+    background-color: rgb(177, 209, 245) !important;
+    width: 30px;
+    height: 5px;
+    border-radius: 10px !important;
+}
+
+main > div {
+    height: 150px;
+}
+
+.nav1 > li > a > img {
+    width: 150px;
+    height: 150px;
+}
+
+.nav1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    ". . g01"
+    ". . g02"
+    "g04 g05 g03";
+    transform: translate(-16px,-70.5%);
+    grid-gap: 5px;
+    margin-left: 15px;
+}
+
+.nav1 > li:first-child{grid-area: g01;}
+.nav1 > li:nth-child(2){grid-area: g02;}
+.nav1 > li:nth-child(3){grid-area: g03;}
+.nav1 > li:nth-child(4){grid-area: g04;}
+.nav1 > li:last-child{grid-area: g05;}
+
+.skypass {
+    width: 490px;
+    height: 170px;
+}

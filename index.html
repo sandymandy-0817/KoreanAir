@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대한항공 모바일</title>
+    <!--파브티콘-->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!--css-->
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/common.css" type="text/css">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--폰트어썸-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!--폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" title="메인페이지 바로가기"><img src="./images/txt_logo.png" alt="상단로고"></a></h1>
+        <img src="./images/toggle.png" alt="메뉴" class="toggle">
+        <a href="./login/login.html"><img src="./images/user1.png" alt="로그인" class="user"></a>
+    </header>
+
+    <nav class="gnb">
+        <i class="fa-solid fa-times"></i>
+        <ul class="menu">
+            <li class="m_menu">
+                <a href="#" title="스카이패스 회원 혜택">스카이패스 회원 혜택<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="등급 안내">등급안내</a>
+                    <li><a href="#" title="스카이패스 클럽">스카이패스 클럽</a></li>
+                    <li><a href="#" title="모닝캄 클럽">모닝캄 클럽</a></li>
+                    <li><a href="#" title="모닝캄 프리미엄 클럽">모닝캄 프리미엄 클럽</a></li>
+                    <li><a href="#" title="밀리언 마일러 클럽">밀리언 마일러 클럽</a></li>
+                    
+                </ul>
+                <ul class="sub">
+                    <li><a href="#" title="가족 마일리지">가족 마일리지</a></li>
+                    <li><a href="#" title="가족 등록">가족 등록</a></li>
+                    <li><a href="#" title="양도/합산">양도/합산</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="제휴사 혜택">제휴사 혜택</a>
+                    <li><a href="#" title="기내면세점 SKY SHOP">기내면세점 SKY SHOP</a></li>
+                    <li><a href="#" title="호텔/렌터카">호텔/렌터카</a></li>
+                    <li><a href="#" title="문화/라이프">문화/라이프</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="스카이팀 공동혜택">스카이팀 공동혜택</a></ul>
+            </li>
+            <li class="m_menu">
+                <a href="#" title="마일리지 적립">마일리지 적립<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="대한항공">대한항공</a></ul>
+                <ul class="sub"><a href="#" title="제휴 항공사">제휴 항공사</a>
+                    <li><a href="#" title="스카이팀 항공사">스카이팀 항공사</a></li>
+                    <li><a href="#" title="기타 제휴 항공사">기타 제휴 항공사</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="신용카드">신용카드</a>
+                    <li><a href="#" title="">국내</a></li>
+                    <li><a href="#" title="">해외</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="여행과 라이프">여행과 라이프</a>
+                    <li><a href="#" title="">호텔</a></li>
+                    <li><a href="#" title="">렌터카/투어</a></li>
+                    <li><a href="#" title="">쇼핑/포인트</a></li>
+                    <li><a href="#" title="">금융/보험</a></li>
+                </ul>
+            </li>
+            <li class="m_menu"><a href="#" title="마일리지 사용">마일리지 사용<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="보너스 항공권">보너스 항공권</a>
+                    <li><a href="#" title="이용안내">이용안내</a></li>
+                    <li><a href="#" title="공제 마일리지">공제 마일리지</a></li>
+                    <li><a href="#" title="변경 및 환불">변경 및 환불</a></li>
+                    <li><a href="#" title="보너스 핫픽">보너스 핫픽</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="보너스 좌석 조회">보너스 좌석 조회</a></ul>
+                <ul class="sub"><a href="#" title="좌석 승급 보너스">좌석 승급 보너스</a>
+                    <li><a href="#" title="이용 안내">이용 안내</a></li>
+                    <li><a href="#" title="공제 마일리지">공제 마일리지</a></li>
+                    <li><a href="#" title="변경 및 환불">변경 및 환불</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="부가 서비스">부가 서비스</a>
+                    <li><a href="#" title=">초과 수하물 보너스">초과 수하물 보너스</a></li>
+                    <li><a href="#" title="반려동물 보너스">반려동물 보너스</a></li>
+                    <li><a href="#" title="KAL 라운지 보너스">KAL 라운지 보너스</a></li>
+                    <li><a href="#" title="비동반 소아 보너스">비동반 소아 보너스</a></li>
+                    <li><a href="#" title="코트룸 보너스">코트룸 보너스</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="캐시 앤 마일즈">캐시 앤 마일즈</a></ul>
+                <ul class="sub"><a href="#" title="제휴항공사 보너스">제휴항공사 보너스</a>
+                    <li><a href="#" title="스카이팀 보너스">스카이팀 보너스</a></li>
+                    <li><a href="#" title="스카이팀 좌석 승급">스카이팀 좌석 승급</a></li>
+                    <li><a href="#" title="기타 제휴 항공사">기타 제휴 항공사</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="마일리지 몰">마일리지몰</a></ul>
+            </li>
+            <li class="m_menu"><a href="#" title="예약 가이드">예약 가이드<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="운임 안내">운임 안내</a>
+                    <li><a href="#" title="국제선 운임 안내">국제선 운임 안내</a></li>
+                    <li><a href="#" title="국내선 운임 안내">국내선 운임 안내</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="항공권 예매 방법">항공권 예매 방법</a>
+                    <li><a href="#" title="일반 항공권">일반 항공권</a></li>
+                    <li><a href="#" title="보너스 항공권">보너스 항공권</a></li>
+                    <li><a href="#" title="환승 전용 내항기">환승 전용 내항기</a></li>
+                    <li><a href="#" title="철도 연계 서비스">철도 연계 서비스</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="항공권 변경 및 환불">항공권 변경 및 환불</a>
+                    <li><a href="#" title="항공권 변경">항공권 변경</a></li>
+                    <li><a href="#" title="항공권 환불">항공권 환불</a></li>
+                    <li><a href="#" title="예약 부도 위약금">예약 부도 위약금</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="온라인 결제 가이드">온라인 결제 가이드</a>
+                    <li><a href="#" title="한국 결제수단">한국 결제수단</a></li>
+                    <li><a href="#" title="글로벌 결제수단">글로벌 결제수단</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="기프트카드">기프트카드</a></ul>
+            </li>
+            <li class="m_menu"><a href="#" title="">여행 전 둘러보기<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="예약부터 탑승까지">예약부터 탑승까지</a></ul>
+                <ul class="sub"><a href="#" title="동영상 가이드">동영상 가이드</a></ul>
+                <ul class="sub"><a href="#" title="탑승권 혜택">탑승권 혜택</a>
+                    <li><a href="#" title="엑설런트 보딩패스">엑설런트 보딩패스</a></li>
+                    <li><a href="#" title="그랜드 하얏트 인천">그랜드 하얏트 인천</a></li>
+                </ul>
+            </li>
+            <li class="m_menu"><a href="#" title="부가 서비스 신청">부가 서비스 신청<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="좌석 배정">좌석 배정</a>
+                    <li><a href="#" title="사전 좌석 배정">사전 좌석 배정</a></li>
+                    <li><a href="#" title="유로좌석">유로좌석</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="초과 수하물 사전 구매">초과 수하물 사전 구매</a></ul>
+                <ul class="sub"><a href="#" title="기내식 사전 신청">기내식 사전 신청</a></ul>
+                <ul class="sub"><a href="#" title="반려동물 신청">반려동물 신청</a></ul>
+                <ul class="sub"><a href="#" title="기타 부가서비스">기타 부가서비스</a></ul>
+                <ul class="sub"><a href="#" title="호텔, 렌터카 및 보험">호텔, 렌터카 및 보험</a></ul>
+            </li>
+            <li class="m_menu"><a href="#" title="체크인 방법">체크인 방법<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="셀프 체크인">셀프 체크인</a>
+                    <li><a href="#" title="오토 체크인">오토 체크인</a></li>
+                    <li><a href="#" title="온라인 체크인">온라인 체크인</a></li>
+                    <li><a href="#" title="키오스크">키오스크</a></li>
+                    <li><a href="#" title="셀프백드랍">셀프백드랍</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="카운터 체크인">카운터 체크인</a>
+                    <li><a href="#" title="공항 카운터">공항 카운터</a></li>
+                    <li><a href="#" title="도심 공항">도심 공항</a></li>
+                </ul>
+            </li>
+            <li class="m_menu"><a href="#" title="수하물">수하물<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="휴대 수하물">휴대 수하물</a></ul>
+                <ul class="sub"><a href="#" title="위탁 수하물">위탁 수하물</a>
+                    <li><a href="#" title="무료 수하물">무료 수하물</a></li>
+                    <li><a href="#" title="초과 수하물">초과 수하물</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="특수 수하물">특수 수하물</a></ul>
+                <ul class="sub"><a href="#" title="운송 제한 물품">운송 제한 물품</a></ul>
+                <ul class="sub"><a href="#" title="수하물 위치 조회">수하물 위치 조회</a></ul>
+                <ul class="sub"><a href="#" title="지연, 파손 및 유실물">지연, 파손 및 유실물</a>
+                    <li><a href="#" title="수하물 지연">수하물 지연</a></li>
+                    <li><a href="#" title="수하물 파손">수하물 파손</a></li>
+                    <li><a href="#" title="유실물">유실물</a></li>
+                </ul>
+            </li>
+            <li class="m_menu"><a href="#" title="공항 이용">공항 이용<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="탑승수속 절차">탑승수속 절차</a>
+                    <li><a href="#" title="국제선 탑승">국제선 탑승</a></li>
+                    <li><a href="#" title="국내선 탑승">국내선 탑승</a></li>
+                    <li><a href="#" title="환승 수속">환승 수속</a></li>
+                </ul><ul class="sub"><a href="#" title="취항지 공항 정보">취항지 공항 정보</a></ul>
+                <ul class="sub"><a href="#" title="인천국제공항">인천국제공항</a>
+                    <li><a href="#" title="공항 정보">공항 정보</a></li>
+                    <li><a href="#" title="대한항공 라운지">대한항공 라운지</a></li>
+                    <li><a href="#" title="환승 안내">환승 안내</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="출입국 규정">출입국 규정</a></ul>
+                <ul class="sub"><a href="#" title="라운지 이용">라운지 이용</a></ul>
+                <ul class="sub"><a href="#" title="코트룸 서비스">코트룸 서비스</a></ul>
+            </li>
+            <li class="m_menu"><a href="#" title="">기내 경험<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="기내식">기내식</a>
+                    <li><a href="#" title="기내식 메뉴조회">기내식 메뉴조회</a></li>
+                    <li><a href="#" title="일등석">일등석</a></li>
+                    <li><a href="#" title="프레스티지석">프레스티지석</a></li>
+                    <li><a href="#" title="일반석">일반석</a></li>
+                    <li><a href="#" title="특별기내식">특별기내식</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="서비스 순서">서비스 순서</a></ul>
+                <ul class="sub"><a href="#" title="기내 환경 안내">기내 환경 안내</a>
+                    <li><a href="#" title="기내 환경 가이드">기내 환경 가이드</a></li>
+                    <li><a href="#" title="비행 중 건강관리">비행 중 건강관리</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="기내 엔터테인먼트">기내 엔터테인먼트</a></ul>
+                <ul class="sub"><a href="#" title="기내 와이파이">기내 와이파이</a></ul>
+                <ul class="sub"><a href="#" title="기내면세점 SKY SHOP">기내면세점 SKY SHOP</a></ul>
+                <ul class="sub"><a href="#" title="항공기 안내">항공기 안내</a></ul>
+            </li>
+            <li class="m_menu"><a href="#" title="">클래스별 서비스<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="일등석">일등석</a>
+                    <li><a href="#" title="탑승전 서비스">탑승전 서비스</a></li>
+                    <li><a href="#" title="탑승후 서비스">탑승후 서비스</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="프레스티지석">프레스티지석</a>
+                    <li><a href="#" title="탑승전 서비스">탑승전 서비스</a></li>
+                    <li><a href="#" title="탑승후 서비스">탑승후 서비스</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="일반석">일반석</a>
+                    <li><a href="#" title="탑승전 서비스">탑승전 서비스</a></li>
+                    <li><a href="#" title="탑승후 서비스">탑승후 서비스</a></li>
+                </ul>
+            </li>
+            <li class="m_menu"><a href="#" title="">도움이 필요한 승객<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="아이와 함께 여행">아이와 함께 여행</a></ul>
+                <ul class="sub"><a href="#" title="혼자 여행하는 어린이">혼자 여행하는 어린이</a></ul>
+                <ul class="sub"><a href="#" title="한가족 서비스">한가족 서비스</a></ul>
+                <ul class="sub"><a href="#" title="임신중인 승객">임신중인 승객</a></ul>
+                <ul class="sub"><a href="#" title="몸이 불편한 승객">몸이 불편한 승객</a>
+                    <li><a href="#" title="휠체어 이용 승객">휠체어 이용 승객</a></li>
+                    <li><a href="#" title="의료도움 필요 승객">의료도움 필요 승객</a></li>
+                    <li><a href="#" title="보조견 동행 승객">보조견 동행 승객</a></li>
+                </ul>
+                <ul class="sub"><a href="#" title="반려동물 동반 승객">반려동물 동반 승객</a>
+                    <li><a href="#" title="반려동물 동반 안내">반려동물 동반 안내</a></li>
+                    <li><a href="#" title="SKYPETS">SKYPETS</a></li>
+                </ul>
+            </li>
+            <li class="m_menu"><a href="#" title="">고객지원<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="자주 묻는 질문">자주 묻는 질문</a></ul>
+                <ul class="sub"><a href="#" title="서비스 센터">서비스 센터</a></ul>
+                <ul class="sub"><a href="#" title="e-서식함">e-서식함</a></ul>
+                <ul class="sub"><a href="#" title="이벤트">이벤트</a></ul>
+            </li>
+            <li class="m_menu"><a href="#" title="약관 및 규정">약관 및 규정<i class="fas fa-angle-down"></i></a>
+                <ul class="sub"><a href="#" title="개인정보처리방침">개인정보처리방침</a></ul>
+                <ul class="sub"><a href="#" title="이용 약관">이용 약관</a></ul>
+                <ul class="sub"><a href="#" title="운송약관 및 고지사항">운송약관 및 고지사항</a></ul>
+                <ul class="sub"><a href="#" title="소비자 안전 관련 정보">소비자 안전 관련 정보</a></ul>
+                <ul class="sub"><a href="#" title="운임 및 서비스 요금표">운임 및 서비스 요금표</a></ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <article class="mslide">
+            <h2>메인슬라이드</h2>
+            <div class="swiper main_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#" title="슬라이드1"><img src="./images/banner01.jpg" alt="슬라이드1"></a></div>
+                    <div class="swiper-slide"><a href="#" title="슬라이드2"><img src="./images/banner02.jpg" alt="슬라이드2"></a></div>
+                    <div class="swiper-slide"><a href="#" title="슬라이드3"><img src="./images/banner03.jpg" alt="슬라이드3"></a></div>
+                    <div class="swiper-slide"><a href="#" title="슬라이드4"><img src="./images/banner04.jpg" alt="슬라이드4"></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </article>
+
+        <div>
+            <ul class="nav1">
+                <li>
+                    <a href="#" title="국제선 예매"><img src="./images/m_img01.jpg" alt="국제선 예매"></a>
+                </li>
+                <li>
+                    <a href="#" title="국제선 예메"><img src="./images/m_img02.jpg" alt="국제선 예매"></a>
+                </li>
+                <li>
+                    <a href="#" title="예약관리"><img src="./images/m_img03.jpg" alt="예약관리"></a>
+                </li>
+                <li>
+                    <a href="#" title="스케쥴/출도착"><img src="./images/m_img05.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#" title="체크인"><img src="./images/m_img04.jpg" alt="체크인"></a>
+                </li>
+            </ul>
+        </div>
+        <img src="./images/skypass.jpg" alt="스카이패스" class="skypass">
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="#" title="개인정보취급방침">개인정보취급방침</a></li>
+            <li><a href="#" title="PC버전보기">PC버전보기</a></li>
+            <li><a href="#" title="앱다운로드">앱다운로드</a></li>
+        </ul>
+        <address>
+            <p>Copyright&copy; 2022 KOREAN AIR Allrights reserved.</p>
+            <p>사업자등록번호 0000-000-0000 통신판매업 신고번호: 강서 제00-000</p>
+        </address>
+    </footer>
+
+    <!--js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script/navi.js"></script>
+
+    <script>
+        var swiper = new Swiper('.main_slide', {
+            spaceBetween:0,
+            effect:'fade',
+            centerSlide:true,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction:false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable:true
+            }
+        });
+    </script>
+</body>
+</html>
